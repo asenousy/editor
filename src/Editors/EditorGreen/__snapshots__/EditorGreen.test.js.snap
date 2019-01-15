@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Editor renders correctly 1`] = `
+<div>
+  <h3>
+    Version 
+    2.0
+    :
+  </h3>
+  <textarea
+    onChange={[Function]}
+    rows="10"
+    value=""
+  />
+  <input
+    hidden={true}
+    onChange={[Function]}
+    type="file"
+  />
+  <br />
+  <a
+    download={true}
+    hidden={true}
+  />
+  <div>
+    <button
+      onClick={[Function]}
+    >
+      Upload
+    </button>
+    <button
+      onClick={[Function]}
+    >
+      save
+    </button>
+  </div>
+</div>
+`;
