@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Page renders correctly 1`] = `
+<div>
+  <nav
+    className="navbar navbar-expand-sm navbar-light bg-light"
+  >
+    <a
+      aria-current={null}
+      className="nav-item nav-link"
+      href="/1.0"
+      onClick={[Function]}
+    >
+      V
+      1.0
+    </a>
+    <a
+      aria-current={null}
+      className="nav-item nav-link"
+      href="/1.1"
+      onClick={[Function]}
+    >
+      V
+      1.1
+    </a>
+    <a
+      aria-current="page"
+      className="nav-item nav-link selected"
+      href="/2.0"
+      onClick={[Function]}
+      style={Object {}}
+    >
+      V
+      2.0
+    </a>
+  </nav>
+  <div>
+    <h3>
+      Version 
+      2.0
+      :
+    </h3>
+    <textarea
+      onChange={[Function]}
+      rows="10"
+      value=""
+    />
+    <input
+      hidden={true}
+      onChange={[Function]}
+      type="file"
+    />
+    <br />
+    <a
+      download={true}
+      hidden={true}
+    />
+    <div>
+      <button
+        onClick={[Function]}
+      >
+        Upload
+      </button>
+      <button
+        onClick={[Function]}
+      >
+        save
+      </button>
+    </div>
+  </div>
+</div>
+`;
