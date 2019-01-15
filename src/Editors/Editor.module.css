@@ -1,6 +1,14 @@
 .container {
-    margin: 20px;
+    padding: 20px;
     width: 50%;
+  }
+
+  @media screen and (max-width: 600px) {
+    .container {
+      margin: auto;
+      padding: 20px;
+      width: 100%;
+    }
   }
 
 .textarea {
